@@ -1,0 +1,169 @@
+# Byte-compiled / optimized / DLL archive folders
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tosca/
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.nox/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the values are
+#   specific to the developer's system. But for a binary or runable page, you might want to check it in.
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if the platform is different, it may not be appropriate.
+# Pipfile.lock
+
+# poetry
+#   Similarly, poetry.lock contains exact versions, but can be ignored if you want.
+# poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, poetry.lock, pdm.lock may be ignored in some cases.
+# pdm.lock
+.pdm-plugins/
+.pdm-build/
+
+# PEP 582; dependency directories created by pipflow/pdm/poetry/etc.
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Streamlit config and runtime files
+.streamlit/
+
+# Local SQLite databases (used in development)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Tesseract temporary/output files
+tesseract.log
+output_ocr.txt
+
+# local models for llama.cpp / quantized models
+models/*.gguf
+models/*.bin
+models/llama.cpp/
+
+# Local IDE configuration files
+.vscode/
+.idea/
+.gemini/
+.agents/
